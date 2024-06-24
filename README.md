@@ -27,11 +27,11 @@ We need data on the top UK YouTubers in 2024 that includes their
 
 Where is the data coming from? The data is sourced from Kaggle (an Excel extract).
 
-#Development
+# Development
 
-##Data Cleaning
+## Data Cleaning
 
-###Transform the data
+### Transform the data
 
 ```sql
 /*
@@ -50,7 +50,7 @@ FROM
     top_uk_youtubers_2024
 ```
 
-###Transform the data
+### Create the SQL view
 
 ```sql
 /*
@@ -73,11 +73,11 @@ SELECT
 FROM
     top_uk_youtubers_2024
 ```
-#Testing
+# Testing
 
 Here are the data quality tests conducted:
 
-##Row count check
+## Row count check
 
 ```sql
 /*
@@ -89,7 +89,7 @@ SELECT
 FROM
     view_uk_youtubers_2024;
 ```
-##Column count check
+## Column count check
 
 ```sql
 /*
@@ -104,7 +104,7 @@ FROM
 WHERE
     TABLE_NAME = 'view_uk_youtubers_2024'
 ```
-##Data type check
+## Data type check
 
 ```sql
 /*
@@ -121,7 +121,7 @@ WHERE
     TABLE_NAME = 'view_uk_youtubers_2024';
 ```
 
-##Duplicate count check
+## Duplicate count check
 
 ```sql
 /*
@@ -146,9 +146,9 @@ HAVING
     COUNT(*) > 1;
 ```
 
-#Design
+# Design
 
-##Dashboard components required
+## Dashboard components required
 
 What should the dashboard contain based on the requirements provided?
 To understand what it should contain, we need to figure out what questions we need the dashboard to answer:
@@ -169,11 +169,11 @@ Some of the data visuals that may be appropriate in answering our questions incl
 3. Scorecards
 4. Horizontal bar chart
 
-#Visualization
+# Visualization
 
 ![Results](assets/images/powerbi_dashboard.png)
 
-#Analysis
+# Analysis
 
 1. Youtubers with the most subscribers
 
