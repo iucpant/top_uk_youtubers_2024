@@ -25,6 +25,24 @@ We need data on the top UK YouTubers in 2024 that includes their
 
 Where is the data coming from? The data is sourced from Kaggle (an Excel extract).
 
+# Design
+
+To understand what it should contain, we need to figure out what questions we need the dashboard to answer:
+
+1. Who are the top 10 YouTubers with the most subscribers?
+2. Which 3 channels have uploaded the most videos?
+3. Which 3 channels have the most views?
+4. Which 3 channels have the highest average views per video?
+5. Which 3 channels have the highest views per subscriber ratio?
+6. Which 3 channels have the highest subscriber engagement rate per video uploaded?
+   
+Some of the data visuals that may be appropriate in answering our questions include:
+
+1. Table
+2. Treemap
+3. Scorecards
+4. Horizontal bar chart
+
 # Development
 
 ## Data Cleaning
@@ -143,15 +161,6 @@ GROUP BY
 HAVING
     COUNT(*) > 1;
 ```
-
-# Design
-
-Some of the data visuals that may be appropriate in answering our questions include:
-
-1. Table
-2. Treemap
-3. Scorecards
-4. Horizontal bar chart
 
 # Visualization
 
@@ -316,5 +325,28 @@ ORDER BY
     net_profit DESC;
 ```
 
+## Recommendations 
+
+- What do you recommend based on the insights gathered? 
+  
+1. Dan Rhodes is the best YouTube channel to collaborate with if we want to maximize visbility because this channel has the most YouTube subscribers in the UK
+2. Although GRM Daily, Man City and Yogcasts are regular publishers on YouTube, it may be worth considering whether collaborating with them with the current budget caps are worth the effort, as the potential return on investments is significantly lower compared to the other channels.
+3. Mister Max is the best YouTuber to collaborate with if we're interested in maximizing reach, but collaborating with DanTDM and Dan Rhodes may be better long-term options considering the fact that they both have large subscriber bases and are averaging significantly high number of views.
+4. The top 3 channels to form collaborations with are NoCopyrightSounds, DanTDM and Dan Rhodes based on this analysis, because they attract the most engagement on their channels consistently.
+
+
+### Action plan
+- What course of action should we take and why?
+
+Based on our analysis, we beieve the best channel to advance a long-term partnership deal with to promote the client's products is the Dan Rhodes channel. 
+
+We'll have conversations with the marketing client to forecast what they also expect from this collaboration. Once we observe we're hitting the expected milestones, we'll advance with potential partnerships with DanTDM, Mister Max and NoCopyrightSounds channels in the future.   
+
+- What steps do we take to implement the recommended decisions effectively?
+
+1. Reach out to the teams behind each of these channels, starting with Dan Rhodes
+2. Negotiate contracts within the budgets allocated to each marketing campaign
+3. Kick off the campaigns and track each of their performances against the KPIs
+4. Review how the campaigns have gone, gather insights and optimize based on feedback from converted customers and each channel's audiences 
 
 
