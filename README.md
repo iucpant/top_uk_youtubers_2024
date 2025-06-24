@@ -402,7 +402,7 @@ For this analysis, we'll prioritize analysing the metrics that are important in 
 - total views
 - videos uploaded
 
-## Recommendations 
+# Recommendations 
 
 - What do you recommend based on the insights gathered? 
   
@@ -412,7 +412,7 @@ For this analysis, we'll prioritize analysing the metrics that are important in 
 4. The top 3 channels to form collaborations with are NoCopyrightSounds, DanTDM and Dan Rhodes based on this analysis, because they attract the most engagement on their channels consistently.
 
 
-### Action plan
+## Action plan
 - What course of action should we take and why?
 
 Based on our analysis, we beieve the best channel to advance a long-term partnership deal with to promote the client's products is the Dan Rhodes channel. 
