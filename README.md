@@ -237,7 +237,7 @@ RETURN viewsPerSubscriber
 
 # Analysis
 
-1. Youtubers with the most subscribers
+## 1. Youtubers with the most subscribers
 
 ```sql
 /* 
@@ -289,7 +289,7 @@ ORDER BY
 	net_profit DESC
 ```
 
-2. Youtubers with the most videos uploaded
+## 2. Youtubers with the most videos uploaded
 
 ```sql
 /* 
@@ -341,7 +341,7 @@ ORDER BY
     net_profit DESC;
 ```
    
-3. Youtubers with the most views
+## 3. Youtubers with the most views
 
 ```sql
 /*
